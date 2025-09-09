@@ -4,7 +4,7 @@ print("Hello, World!")
 # --- BLOK 2: Variables ---
 name = "Konrad"
 age = 21
-print("HeyKonra,", name)
+print("Hey,", name)
 
 # --- BLOK 3: math ops ---
 a = 11
@@ -19,5 +19,5 @@ print("Cześć,", name2)
 # --- BLOK 5: combined ---
 name3 = input("Whats your name? ")
 datebirth = int(input("What year were you born?" ))
-datecuurent = int(input("What is the current year?"))
-print("Hello", name3, ".You were born in", datebirth, "and in this year you are/will be", datecuurent - datebirth,"years old" )
+datecurrent = int(input("What is the current year?"))
+print("Hello", name3, ".You were born in", datebirth, "and in this year you are/will be", datecurrent - datebirth,"years old" )
